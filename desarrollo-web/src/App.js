@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import AdminInicio from './components/AdminInicio';  // Importamos el nuevo componente
+import AdminInicio from './vista/AdminInicio';
 
 function App() {
   return (
