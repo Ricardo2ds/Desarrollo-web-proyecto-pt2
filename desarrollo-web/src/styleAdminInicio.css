@@ -1,0 +1,17 @@
+/* src/components/AdminInicio.css */
+.admin-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .admin-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
