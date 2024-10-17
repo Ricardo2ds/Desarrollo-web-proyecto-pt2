@@ -1,18 +1,14 @@
-// En tu archivo principal (por ejemplo, App.jsx)
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css';
 import AdminInicio from './vista/AdminInicio';
-import AdminRegistro from './vista/AdminRegistro';
 
-const App = () => {
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/dashboard" element={<AdminInicio />} />
-        <Route path="/registro" element={<AdminRegistro />} />
-        {/* Agrega otras rutas según sea necesario */}
-      </Routes>
-    </Router>
+    <div className="App">
+      {/* Renderizamos el componente AdminInicio */}
+      <AdminInicio />
+    </div>
   );
 }
 

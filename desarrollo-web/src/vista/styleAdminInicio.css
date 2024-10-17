@@ -1,87 +1,17 @@
-/* Estilos para la página AdminInicio */
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-image: url('../imagenes/fondo.png');
-  background-size: cover;
-  background-position: center;
-}
-
-.admin-inicio {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-}
-
-.menu {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
-  width: 14%;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0;
-  position: relative; /* Para permitir la posición del footer */
-}
-
-.logo {
-  width: 70px; /* Ajusta el tamaño del logo */
-  margin: 20px auto; /* Centra el logo horizontalmente */
-  border-bottom: 2px solid white; /* Borde para separar el logo de las opciones */
-  padding-bottom: 10px; /* Espacio debajo del logo */
-}
-
-.menu ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px; /* Espacio encima del menú */
-}
-
-.menu li {
-  margin: 15px 0;
-}
-
-.menu a {
-  color: white; /* Color del texto del menú */
-  text-decoration: none; /* Sin subrayado */
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
-  padding: 10px;
-  text-align: center;
-  color: white; /* Color del texto del pie de página */
-  width: 100%; /* Abarcar todo el ancho */
-  position: absolute; /* Posiciona el pie al final de la página */
-  bottom: 0; /* Coloca el pie de página al fondo */
-}
-
-/* Estilos para la tabla de usuarios */
-.tabla-container {
-  margin-top: 20px;
-  width: 86%; /* Ajusta el ancho al contenedor principal */
-  padding: 10px; /* Espacio interno para la tabla */
-}
-
-.tabla-usuarios {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco transparente */
-  border-radius: 10px; /* Bordes redondeados */
-  overflow: hidden; /* Para evitar que los bordes redondeados no se vean */
-}
-
-.tabla-usuarios th,
-.tabla-usuarios td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Línea separadora */
-}
-
-.tabla-usuarios th {
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco fuerte para las columnas */
-  color: #000; /* Color de texto negro */
-}
-
-.tabla-usuarios tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, -20); /* Color de fondo alternativo para filas pares */
-}
+/* src/components/AdminInicio.css */
+.admin-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .admin-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
